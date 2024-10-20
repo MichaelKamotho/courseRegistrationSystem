@@ -12,12 +12,23 @@
     <div class="container">
         <h2>Course Application Dashboard</h2>
         <p>Welcome, <span id="username">User</span></p>
-
-        <h3>Available Courses</h3>
-        <div id="coursesList">
-            <!-- List of courses will be dynamically loaded here -->
+        <input type="text" id="searchInput" placeholder="Search for courses...">
+        <table id="coursesTable">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody id="coursesList">
+            <!-- Courses will be dynamically added here -->
+            </tbody>
+        </table>
+        <div id="pagination">
+            <button id="prevPage">Previous</button>
+            <span id="pageNumber">1</span>
+            <button id="nextPage">Next</button>
         </div>
-
         <h3>Selected Courses</h3>
         <div id="selectedCourses">
             <!-- Shopping cart for selected courses will appear here -->
