@@ -2,11 +2,11 @@
 // Enable error reporting for detailed debugging
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
-ini_set('include_path', '/var/www/html/theProject/backEnd/config');
 error_reporting(E_ALL);
 
 // Include the database connection file
-include_once __DIR__ . '/../config/database.php'; 
+include '/var/www/html/theProject/backEnd/config/database.php';
+
 // Get input data from the AJAX request
 $data = json_decode(file_get_contents("php://input"));
 
