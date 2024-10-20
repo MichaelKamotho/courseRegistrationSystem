@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Online Courses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../frontEnd/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Course Application Dashboard</h2>
+        <p>Welcome, <span id="username">User</span></p>
+
+        <h3>Available Courses</h3>
+        <div id="coursesList">
+            <!-- List of courses will be dynamically loaded here -->
+        </div>
+
+        <h3>Selected Courses</h3>
+        <div id="selectedCourses">
+            <!-- Shopping cart for selected courses will appear here -->
+        </div>
+
+        <button id="submitApplication">Submit Application</button>
+        <br><br>
+        <button id="viewApplications">My Applications</button>
+    </div>
+    <script src="js/apply.js"></script>
+</body>
+</html>
