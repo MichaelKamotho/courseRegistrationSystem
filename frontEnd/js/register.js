@@ -16,7 +16,7 @@ $("#registerForm").submit(function(e) {
         data: JSON.stringify(userData),  // Send data as JSON
         success: function(response) {
             console.log(response);  // Debug: Log response from the server
-            alert(response.message);  // Display success message
+            alert("Succesful registration ");  // Display success message
         },
         error: function(xhr, status, error) {
             console.error("Error: " + status + " " + error);  // Log the error
