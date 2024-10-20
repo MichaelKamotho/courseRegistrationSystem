@@ -6,8 +6,9 @@ $("#loginForm").submit(function(e) {
         password: $("#password").val()
     };
 
+    console.log(loginData);
     $.ajax({
-        url: '../backend/api/login.php',  // Path to the backend login API
+        url: '../backEnd/api/login.php',  // Path to the backend login API
         type: 'POST',
         contentType: 'application/json',
         data: JSON.stringify(loginData),  // Send the data as JSON
