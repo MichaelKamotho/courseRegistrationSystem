@@ -1,8 +1,8 @@
-## courseRegistrationSystem
-# Project Description 
+# Course Registration System
+## Project Description 
 This project aims to create a web-based system that allows users to browse available courses, select their preferred courses, and submit an application.
 The system provides a user-friendly interface for course selection and application submission.
-# scope
+## Project Scope
 The prjects includes various features and functionalities including but not limited to:
 	1. User Roles and Interactions
 	a. applicant
@@ -19,7 +19,7 @@ The prjects includes various features and functionalities including but not limi
 	a. Internal server errors
 	b. Ajax Feedback 
 	c. Error handling in registration
-# Timeline
+## Timeline
 [01:00] - Environment setup and basic configuration
 [02:00] - User registration and authentication 
 [03:00] - Course listing and Application process
@@ -27,12 +27,12 @@ The prjects includes various features and functionalities including but not limi
 [05:00] - Error jandling and Security
 [06:00] - Final Testing and Deployment
 
-# Stakeholders
+## Stakeholders
 a.Applicants
 b.Course provider/institution
 c.System Administrator
 
-# Requirements
+## Requirements
 The technologies used in the above system are:
 	- Ubuntu 24.04 1 LTS
 	- php 8.3.6
@@ -47,10 +47,10 @@ Acceptance criteria:
 	- Page reloads minimalisation
 	- Search functionality
 	- User authentication
-# Development 
+## Development 
 Version control used was git[local and remote repo]
 
-# Additional considerations
+## Additional considerations
 Given the timeline of the project these are the potential risks:	
 	- hardcoded applicant id's
 	- local file inclusion vulnerability
