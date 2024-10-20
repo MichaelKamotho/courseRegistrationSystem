@@ -1,6 +1,6 @@
 <?php
 session_start();
-include '/var/www/html/theProject/backEnd/config/database.php';
+include_once '../config/database.php';
 
 $data = json_decode(file_get_contents("php://input"));
 
