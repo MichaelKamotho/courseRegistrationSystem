@@ -1,0 +1,13 @@
+/* General Styles */
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Other styles remain the same */
